@@ -20,7 +20,7 @@ elif media < 7.0 and media >= 3.5:
     print(f"Você irá realizar a 4ª prova, pois sua media foi: {media}")
     n4 = float(input("Digite a nota da prova final: "))
     final =(media+n4)/2
-    if final > 5.0:
+    if final >= 5.0:
         print("Aprovado!")
     else:
         print("Reprovado!")
