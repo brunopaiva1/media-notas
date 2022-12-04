@@ -26,7 +26,3 @@ elif media < 7.0 and media >= 3.5:
         print("Reprovado!")
 else:
     print(f"Reprovado! sua média foi: {media}")
-
-
-
-
